@@ -1,0 +1,1 @@
+export const FormalMediaContractAddress = "0x8C445e79ac3fC91697B75307e114d135138AbA6D"
