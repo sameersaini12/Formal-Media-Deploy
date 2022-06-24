@@ -1,5 +1,8 @@
 # Getting Started with Create React App
 
+See [Demo Project on Youtube](https://youtu.be/1j1QnF63hHA).
+Deployed on Netlify app [Formal media](https://formalmedia.netlify.app/).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
