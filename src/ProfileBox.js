@@ -90,7 +90,7 @@ const ProfileBox = ({currentAccount}) => {
     return (
         <div className="profileBox">
             <div style={{backgroundColor : "lightgray" , width: "100%" , height : "200px" }}>
-                <img src={coverProfilePhoto} alt="coverPhoto"  style={{ width: "100%" , height : "200px"}} />
+                <img src="https://bafybeigi7qge6moyqr7pje627oi5c3qlykcguhlr553ri7ctj6knyylyki.ipfs.infura-ipfs.io/" alt="coverPhoto"  style={{ width: "100%" , height : "200px"}} />
             </div>
             <Avatar
             style={{ height: "150px" , width: "150px" , marginTop: "-80px" , marginLeft: "3%" }}

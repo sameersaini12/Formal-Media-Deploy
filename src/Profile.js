@@ -14,7 +14,7 @@ const Profile = ({currentAccount}) => {
   const getUpdatedTweets = (allTweets, address) => {
     let updatedTweets = [];
     // Here we set a personal flag around the tweets
-    for(let i=0; i<allTweets.length; i++) {
+    for(let i=allTweets.length-1; i>=0; i--) {
       if(allTweets[i].username.toLowerCase() === address.toLowerCase()) {
         let tweet = {
           'id': allTweets[i].id,
