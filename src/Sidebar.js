@@ -76,7 +76,7 @@ function Sidebar({currentAccount}) {
         </div>
         <div style={{marginLeft : "17px"}}>
           <div style={{fontWeight: "700"}}>
-            {name==currentAccount ? 
+            {name===currentAccount ? 
             `${currentAccount.substring(0,7)}...${currentAccount.substring(currentAccount.length-7,currentAccount.length)}`
             : name}
           </div>

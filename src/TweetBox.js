@@ -42,7 +42,7 @@ function TweetBox() {
 
         let formalMediaTx = await FormalMediaContract.addTweet(tweet.tweetText, tweet.isDeleted , tweet.ddata);
 
-        // console.log(formalMediaTx);
+        console.log(formalMediaTx);
       } else {
         console.log("Ethereum object doesn't exist!");
       }

@@ -3,7 +3,6 @@ import { generateRandomAvatarOptions } from './avatar';
 import Avatar from 'avataaars';
 import React, { useState , useEffect } from "react";
 import coverProfilePhoto from "./coverPhoto.jpg"
-import { create } from 'ipfs-http-client';
 import { Button } from "@material-ui/core";
 import Popup from "./Pop";
 import { FormalMediaContractAddress } from './config.js';
@@ -11,7 +10,6 @@ import {ethers} from 'ethers';
 import FormalMedia from './utils/formalMediaAbi.json'
 
 
-const client = create('https://ipfs.infura.io:5001/api/v0')
 
 
 const ProfileBox = ({currentAccount}) => {
@@ -38,7 +36,7 @@ const ProfileBox = ({currentAccount}) => {
     
             let formalMediaTx = await FormalMediaContract.setUpProfile(currentAccount , name);
     
-            // console.log(formalMediaTx);
+            console.log(formalMediaTx);
           } else {
             console.log("Ethereum object doesn't exist!");
           }
